@@ -1,0 +1,39 @@
+<template>
+    <lightning-card title="File Upload Demo LWC" icon-name="custom:custom14">
+        <lightning-file-upload
+            record-id={myRecordId}
+            accept={acceptedFormats}
+            name="fileUploader"
+            class="file-selector-large"
+            label="Select a json file"
+            title="use this tool to parse a json file and create sObject records based on it"
+            onuploadfinished={handleUploadFinished}
+        >
+    </lightning-file-upload>
+        
+        <!-- dispay a generic table -->
+        
+        <div style="display:flex; flex-wrap: wrap;">
+            <template for:each={sObjects} for:item="obj">
+                <div key={obj}>
+                   <div class="slds-var-p-around_medium slds-m-around_large lgc-bg " style="width: 30rem">
+                    <lightning-tile label={obj.recordType}>
+                        <template for:each={obj.fields} for:item="field">
+                            <dl class="slds-dl_horizontal" key={field}>
+                                <dt class="slds-dl_horizontal__label">
+                                    <p class="slds-truncate">{field.key}</p>
+                                </dt>
+                                <dd class="slds-dl_horizontal__detail slds-tile__meta">
+                                    <p class="slds-truncate">{field.value}</p>
+                                </dd>
+                            </dl>
+                        </template>
+                    </lightning-tile>
+                   </div>
+                </div>
+            </template>
+        </div>
+       
+    </lightning-card>
+
+</template>

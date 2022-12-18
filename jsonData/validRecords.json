@@ -1,0 +1,323 @@
+[
+    {
+        "recordType": "UnknownObject1",
+        "fields": {
+            "Name": "Good field",
+            "NumberofLocations__c": "asd",
+            "testField": "asdads"
+        }
+    },
+    {
+        "recordType": "Account",
+        "fields": {
+            "Name": "Good field",
+            "NumberofLocations__c": "asd",
+            "testField": "asdads"
+        }
+    },
+    {
+        "recordType": "Account",
+        "fields": {
+            "Name": "ACCOUNT FLAS",
+            "asltfield": 3123
+        }
+    },
+    {
+        "recordType": "Account",
+        "fields": {
+            "Name": "false"
+        }
+    },
+    {
+        "recordType": "Account",
+        "fields": {
+            "Name": "Account4"
+        }
+    },
+    {
+        "recordType": "Account",
+        "fields": {
+            "Name": "Account5"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Paul"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Liliana"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Vasile"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Badita",
+            "LastName": "George"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Liliana"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Vasile"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Badita",
+            "LastName": "George"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Liliana"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Vasile"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Badita",
+            "LastName": "George"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Liliana"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Vasile"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Badita",
+            "LastName": "George"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Liliana"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Vasile"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Badita",
+            "LastName": "George"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Liliana"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Vasile"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Badita",
+            "LastName": "George"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Liliana"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Vasile"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Badita",
+            "LastName": "George"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Liliana"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Vasile"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Badita",
+            "LastName": "George"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Liliana"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Vasile"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Badita",
+            "LastName": "George"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Liliana"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Vasile"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Badita",
+            "LastName": "George"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Liliana"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Vasile"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Badita",
+            "LastName": "George"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Liliana"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Vasile"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Badita",
+            "LastName": "George"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Liliana"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Vasile"
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Badita",
+            "LastName": "George"
+        }
+    }
+]
