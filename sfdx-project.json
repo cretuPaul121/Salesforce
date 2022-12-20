@@ -20,6 +20,13 @@
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "default": false
+        },
+        {
+            "path": ".\\force-app",
+            "package": "novideaSolution",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
         }
     ],
     "name": "interview",
@@ -27,6 +34,7 @@
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "55.0",
     "packageAliases": {
-        "Novidea": "0Ho680000004C9rCAE"
+        "Novidea": "0Ho680000004C9rCAE",
+        "novideaSolution": "0Ho68000000wk2TCAQ"
     }
 }

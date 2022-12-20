@@ -29,8 +29,22 @@ public with sharing class CreateSObjects {
 
             for(String sObjectFieldName : sObjectFields.keySet()) {
                 if( sObjectFieldNameExist(newSObjectSchemaType, sObjectFieldName) ) {
-                    if( sObjectFieldNameDataTypeFit(newSObject, sObjectFieldName, sObjectFields.get(sObjectFieldName)) ) {
-                        newSObject.put(sObjectFieldName, sObjectFields.get(sObjectFieldName));
+                    String dataType = getFieldDataType(newSObjectSchemaType, sObjectFieldName);
+                    Object fieldNameValue = sObjectFields.get(sObjectFieldName);
+
+                    // for DATE data type a conversion has to be made from String to date object
+                    switch on dataType {
+                        when 'DATE' {
+                            fieldNameValue = date.parse(String.valueOf(fieldNameValue));
+                        }
+                        when 'DATETIME' {
+                            fieldNameValue = DateTime.Valueof(String.valueOf(fieldNameValue).replace('T', ' '));
+
+                        }
+                    }
+
+                    if( sObjectFieldNameDataTypeFit(newSObject, sObjectFieldName, fieldNameValue) ) {
+                        newSObject.put(sObjectFieldName, fieldNameValue);
                     } else {
                         System.debug('Field type doesnt match');
                     }
@@ -79,11 +93,18 @@ public with sharing class CreateSObjects {
      */
     private static Boolean sObjectFieldNameDataTypeFit(SObject obj, String fieldName, Object fieldValue) {
         try {
+          
             obj.put(fieldName, fieldValue);
             return true;
         } catch(Exception ex) {
             return false;
         }
+    }
+
+    private static String getFieldDataType(Schema.SObjectType newSObjectSchemaType, String fieldName) {
+        Schema.DisplayType displayValue = newSObjectSchemaType.getDescribe().fields.getMap().get(fieldName).getDescribe().getType();
+
+        return String.valueOf(displayValue);
     }
 
 

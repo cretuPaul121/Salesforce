@@ -319,5 +319,28 @@
             "FirstName": "Badita",
             "LastName": "George"
         }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Vasile",
+            "Age__c":25,
+            "Birthday__c":"20/12/2022",
+            "Is_a_father__c": true
+        }
+    },
+    {
+        "recordType": "Contact",
+        "fields": {
+            "FirstName": "Cretu",
+            "LastName": "Vasile",
+            "Age__c":25,
+            "Birthday__c":"20/12/2022",
+            "Is_a_father__c": true,
+            "Level__c": "Secondary",
+            "Phone": "0751763309",
+            "DateTimeTest__c": "2021-10-16T15:20:41.990679+00:00"
+        }
     }
 ]
